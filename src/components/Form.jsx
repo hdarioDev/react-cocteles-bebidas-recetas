@@ -9,11 +9,15 @@ const Form = () => {
     const { setSearch, setGet } = useContext(ResetsContext)
 
     const handleGet = (e) => {
-        setGet(true)
-        const formData = new FormData(reference.current);
-        setSearch(Object.fromEntries(formData))
         e.preventDefault()
-
+        const formData = new FormData(reference.current)
+        setSearch(Object.fromEntries(formData))
+        console.log(Object.fromEntries(formData))
+        // console.log(Object.fromEntries(formData).ingredient)
+        if (Object.fromEntries(formData).ingredient == "" || Object.fromEntries(formData).category == "") {
+            return false
+        }
+        setGet(true)
     }
     return (
         <form ref={reference}  >

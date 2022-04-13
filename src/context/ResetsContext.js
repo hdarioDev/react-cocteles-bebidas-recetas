@@ -10,6 +10,7 @@ const ResetasProvider = (props) => {
         name: '',
         category: ''
     })
+
     const [get, setGet] = useState(false)
     useEffect(() => {
         console.log("useEffect ", search);

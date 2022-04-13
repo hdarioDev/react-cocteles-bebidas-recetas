@@ -9,13 +9,16 @@ const ListResets = () => {
     return (
         <div className="list--container">
             {
-                resets.map((item) => (
-                    <Recipe
+                resets ?
+                    resets.map((item) => (
+                        <Recipe
 
-                        key={item.idDrink}
-                        recipe={item}
-                    />
-                ))
+                            key={item.idDrink}
+                            recipe={item}
+                        />
+                    ))
+                    :
+                    null
             }
 
         </div>
