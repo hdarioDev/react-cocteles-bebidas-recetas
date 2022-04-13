@@ -11,8 +11,6 @@ article .img-container {
     height: 240px;
     overflow: hidden;
     border-radius: 20px;
-    /*esta propiedad evita que la imagen ocupe mas espacio que su contenedor*/
-
 }
 
 article {
@@ -24,10 +22,6 @@ article {
 
 article:hover img {
     transform: scale(1.1);
-
-    /*rotate(20deg)*/
-    /*cuando nos posicionamos sobre la imagen con esta propiedad aumentamos su escala y ademas la giramos*/
-    /* opacity: 0.6; */
 }
 
 article h2 {
@@ -40,9 +34,6 @@ article h2 {
     transition: all 0.5s ease;
     color: #87527f;
     border: 1px solid #636161;
-    /* font-family: "Montserrat", sans-serif; */
-    /* text-transform: uppercase; */
-    /* text-align: center; */
     line-height: 1;
     font-size: 17px;
     background-color: transparent;
@@ -53,8 +44,3 @@ article h2 {
     border-radius: 8px;
     width: 240px;
 }
-
-/* .button-recipe:hover {
-    color: #87527f;
-    background-color: #fff174;
-} */

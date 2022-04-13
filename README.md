@@ -8,7 +8,7 @@ https://www.thecocktaildb.com/
 
 # Demo 
 
-https://sensational-pithivier-e34aee.netlify.app
+https://courageous-lolly-59ba1a.netlify.app
 
 ## Install
 

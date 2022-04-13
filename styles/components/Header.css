@@ -5,7 +5,7 @@ header {
     background-color: var(--success);
     padding-left: 10px;
     padding-right: 10px;
-    height: 80px;
+    height: 70px;
     position: fixed;
     width: 100%;
     z-index: 999;
