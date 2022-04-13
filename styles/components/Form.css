@@ -1,0 +1,47 @@
+form {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    justify-content: center;
+    max-width: 500px;
+}
+
+.input-base {
+    height: 40px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin: 4px;
+
+}
+
+.input {
+    padding: 8px;
+    height: 26px;
+    font-size: 16px;
+    color: var(--text);
+
+}
+
+select {
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--text);
+    font-weight: 100;
+}
+
+button {
+    background-color: var(--warning);
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--secundary);
+    font-weight: 700;
+}
+
+button:hover {
+    color: white;
+    background-color: #87527f;
+}

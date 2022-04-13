@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--success);
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--warning)
+}

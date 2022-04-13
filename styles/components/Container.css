@@ -1,0 +1,22 @@
+section {
+    background-color: var(--info);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.label-form {
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--success);
+}
+
+.container-detail-modal p {
+    white-space: break-spaces;
+    text-align: justify;
+}
+
+.container-detail-modal ul {
+    text-align: left;
+}

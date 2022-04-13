@@ -1,0 +1,12 @@
+.list--container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px);
+    gap: 26px;
+    place-content: center;
+    min-width: 320px;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 12px;
+    padding-bottom: 50px;
+
+}
